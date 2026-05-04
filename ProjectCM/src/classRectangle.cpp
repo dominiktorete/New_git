@@ -1,7 +1,7 @@
 #include "classRectangle.h"
 #include <iostream>
-Rectangle::Rectangle(double _width, double _height) : Shape("Rectangle"), width(_width), height(_height) {}
-
+Rectangle::Rectangle(double _width, double _height, std::string name) : Shape(name), width(_width), height(_height) {}
+Rectangle::Rectangle(double _width, double _height) : width(_width), height(_height) {};
 double Rectangle::area() {
 	return width * height;
 }

@@ -1,6 +1,7 @@
 #include "classColoredRectangle.h"
 #include <iostream>
-ColorRectangle::ColorRectangle(double _width, double _height, int _color) : Shape("ColorRectangle"), Rectangle(_width, _height) {
+#include <string>
+ColorRectangle::ColorRectangle(double _width, double _height, int _color, std::string name) : Shape(name), Rectangle(_width, _height) {
 	ColorRectangle::color = static_cast<Color>(_color);
 }
 Color ColorRectangle::get_color() {

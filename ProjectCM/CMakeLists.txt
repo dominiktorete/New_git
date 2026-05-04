@@ -7,11 +7,13 @@ set(ALL_FILES
     src/classTriangle.cpp
     src/classRectangle.cpp
     src/classColoredRectangle.cpp
+    src/classColoredTriangle.cpp
     src/classColorShape.cpp
     include/classShape.h
     include/classTriangle.h
     include/classRectangle.h
     include/classColoredRectangle.h
+    include/classColoredTriangle.h
     include/classColorShape.h
 )
 foreach(file ${ALL_FILES})
@@ -27,6 +29,7 @@ target_sources(ProjectCM PRIVATE
     src/classShape.cpp
     src/classTriangle.cpp
     src/classRectangle.cpp
+    src/classColoredTriangle.cpp
     src/classColoredRectangle.cpp
     src/classColorShape.cpp
 )

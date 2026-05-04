@@ -1,6 +1,7 @@
 #include "classTriangle.h"
 #include <iostream>
 Triangle::Triangle(double _side, double _higher, std::string name) : Shape(name), side(_side), higher(_higher) {}
+Triangle::Triangle(double _side, double _higher) : Shape(), side(_side), higher(_higher) {}
 
 double Triangle::area() {
 	return (side * higher) / 2.0;

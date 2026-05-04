@@ -5,7 +5,7 @@
 
 class ColorRectangle : virtual public ColorShape, virtual public Rectangle{
 public:
-	ColorRectangle(double _width, double _height, int _color);
+	ColorRectangle(double _width, double _height, int _color, std::string name);
 	Color get_color() override;
 	double area() override;
 	double perimeter() override;
