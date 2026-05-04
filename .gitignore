@@ -34,7 +34,7 @@
 *.map
 *.exp
 
-# Артефакты сборки CMake
+# CMake
 build/
 build-*/
 CMakeFiles/
@@ -45,6 +45,7 @@ CMakeLists.txt.user
 CTestTestfile.cmake
 Testing/
 .cmake_format.py
+CMakeLists.txt
 
 # Зависимости vcpkg
 vcpkg_installed/
