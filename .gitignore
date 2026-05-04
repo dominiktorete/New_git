@@ -45,8 +45,7 @@ CMakeLists.txt.user
 CTestTestfile.cmake
 Testing/
 .cmake_format.py
-CMakeLists.txt
-
+CMakePresets.json
 # Зависимости vcpkg
 vcpkg_installed/
 
