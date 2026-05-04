@@ -8,5 +8,6 @@ using namespace std;
 int main()
 {
 	cout << "Hello CMake." << endl;
+	std::cout << "New branch in git\n";
 	return 0;
 }
