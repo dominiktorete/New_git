@@ -1,0 +1,70 @@
+# Объектные файлы
+*.o
+*.ko
+*.obj
+*.elf
+*.slo
+*.lo
+
+# Исполняемые файлы
+*.exe
+*.out
+*.app
+*.hex
+
+# Библиотеки
+*.lib
+*.a
+*.la
+*.lai
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Отладочные символы и файлы
+*.pdb
+*.idb
+*.dSYM/
+*.su
+*.dwo
+
+# Файлы линкера
+*.ilk
+*.map
+*.exp
+
+# Артефакты сборки CMake
+build/
+build-*/
+CMakeFiles/
+Makefile
+CMakeCache.txt
+CMakeLists.txt.user
+*.cmake
+CTestTestfile.cmake
+Testing/
+.cmake_format.py
+
+# Зависимости vcpkg
+vcpkg_installed/
+
+# Временные и системные файлы
+*.tmp
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.vs/
+__pycache__/
+
+# Файлы IDE
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Кэш компилятора
+.ccache/
